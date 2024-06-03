@@ -17,7 +17,7 @@ def read_csv_from_s3(bucket_name, csv_file_key):
         print(f"Error downloading CSV file from S3: {e}")
         return None
 
-bucket_name = 'deeplearning-mlops'
+bucket_name = 'deeplearning-mlops-demo'
 csv_file_key = 'train.csv'    
 df = read_csv_from_s3(bucket_name, csv_file_key)
 print(df)
