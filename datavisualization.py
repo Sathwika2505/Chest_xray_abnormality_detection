@@ -114,7 +114,7 @@ def save_random_images_from_each_class(base_dir):
 
 def main():
     # Define your parameters here
-    bucket_name = 'deeplearning-mlops'
+    bucket_name = 'deeplearning-mlops-demo'
     zip_file_key = 'trainimages.zip'
     csv_file_key = 'train.csv'
     local_dir = 'local_extracted'
